@@ -41,34 +41,34 @@ This directory contains a complete **Spec Driven Development (SDD)** framework f
 ## Key Files & Their Purposes
 
 ### Core Framework (Team-Facing)
-- **`specs/README.md`** - Entry point for teams, explains when/how to create specs
-- **`specs/TEMPLATE.md`** - Copy this to create new specs, includes ownership annotations
-- **`specs/EXAMPLE-2026-03-csv-export.md`** - Shows what a complete, high-quality spec looks like
+- **[`specs/README.md`](specs/README.md)** - Entry point for teams, explains when/how to create specs
+- **[`specs/TEMPLATE.md`](specs/TEMPLATE.md)** - Copy this to create new specs, includes ownership annotations
+- **[`specs/EXAMPLE-2026-03-csv-export.md`](specs/EXAMPLE-2026-03-csv-export.md)** - Shows what a complete, high-quality spec looks like
 
 ### Supporting Guides
-- **`specs/.spec-status-guide.md`** - Lifecycle management (Draft → In Review → Approved → Implemented)
-- **`docs/ai-assistant-integration.md`** - Workflows for using specs with Copilot, Cursor, Claude Code
-- **`PILOT-DISCUSSION-GUIDE.md`** - Facilitates PM/Eng alignment discussion before pilot
+- **[`specs/.spec-status-guide.md`](specs/.spec-status-guide.md)** - Lifecycle management (Draft → In Review → Approved → Implemented)
+- **[`docs/ai-assistant-integration.md`](docs/ai-assistant-integration.md)** - Workflows for using specs with Copilot, Cursor, Claude Code
+- **[`PILOT-DISCUSSION-GUIDE.md`](PILOT-DISCUSSION-GUIDE.md)** - Facilitates PM/Eng alignment discussion before pilot
 
 ### Design Documentation
-- **`docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`** - Complete framework design rationale
-- **`docs/superpowers/plans/2026-03-24-sdd-framework-enhancements.md`** - Implementation plan for enhancements
+- **[`docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`](docs/superpowers/specs/2026-03-24-spec-driven-development-design.md)** - Complete framework design rationale
+- **[`docs/superpowers/plans/2026-03-24-sdd-framework-enhancements.md`](docs/superpowers/plans/2026-03-24-sdd-framework-enhancements.md)** - Implementation plan for enhancements
 
 ## Working with This Framework
 
 ### To Extend or Modify
 
-1. **Read the design doc first**: `docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`
+1. **Read the design doc first**: [`docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`](docs/superpowers/specs/2026-03-24-spec-driven-development-design.md)
 2. **Understand the Epic/Spec boundary** - this is foundational, don't break it
 3. **Follow existing patterns** - ownership annotations, status workflow, section structure
 4. **Update all related docs** - if you change the template, update the example and README too
 
 ### To Create a New Spec (Team Members)
 
-1. Copy `specs/TEMPLATE.md` to `specs/YYYY-MM-DD-feature-name.md`
+1. Copy [`specs/TEMPLATE.md`](specs/TEMPLATE.md) to `specs/YYYY-MM-DD-feature-name.md`
 2. Fill sections according to ownership (PM → Design → Eng)
-3. Follow status workflow from `.spec-status-guide.md`
-4. Reference `EXAMPLE-2026-03-csv-export.md` for quality bar
+3. Follow status workflow from [`.spec-status-guide.md`](specs/.spec-status-guide.md)
+4. Reference [`EXAMPLE-2026-03-csv-export.md`](specs/EXAMPLE-2026-03-csv-export.md) for quality bar
 
 ### To Add New Guides or Examples
 
@@ -93,23 +93,23 @@ This directory contains a complete **Spec Driven Development (SDD)** framework f
 ### Adjust Template Sections
 **If**: Team finds some sections always empty or needs new sections
 **Do**:
-1. Update `specs/TEMPLATE.md`
-2. Update `specs/EXAMPLE-2026-03-csv-export.md` to show the new structure
-3. Update `specs/README.md` to explain the change
+1. Update [`specs/TEMPLATE.md`](specs/TEMPLATE.md)
+2. Update [`specs/EXAMPLE-2026-03-csv-export.md`](specs/EXAMPLE-2026-03-csv-export.md) to show the new structure
+3. Update [`specs/README.md`](specs/README.md) to explain the change
 4. Document decision in design doc
 
 ### Change Status Values
 **If**: Team needs different statuses (e.g., "Blocked", "On Hold")
 **Do**:
-1. Update `specs/.spec-status-guide.md` status table
+1. Update [`specs/.spec-status-guide.md`](specs/.spec-status-guide.md) status table
 2. Update workflow diagram
 3. Add examples for new statuses
-4. Update `specs/TEMPLATE.md` header
+4. Update [`specs/TEMPLATE.md`](specs/TEMPLATE.md) header
 
 ### Add Tool-Specific Guidance
 **If**: Team uses a new AI assistant (e.g., new tool emerges)
 **Do**:
-1. Add section to `docs/ai-assistant-integration.md`
+1. Add section to [`docs/ai-assistant-integration.md`](docs/ai-assistant-integration.md)
 2. Follow pattern: tool name, how to load spec, example workflow
 3. Update example prompts to reference actual spec files
 

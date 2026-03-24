@@ -31,7 +31,7 @@ This guide shows how to leverage specs with AI assistants like GitHub Copilot, C
 **Give the AI the full spec as context:**
 
 ```
-I'm implementing the feature described in specs/EXAMPLE-2026-03-csv-export.md.
+I'm implementing the feature described in [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md).
 Please read this spec and let me know when you're ready to start.
 ```
 
@@ -43,7 +43,7 @@ Please read this spec and let me know when you're ready to start.
 
 ```
 Based on the "Technical Approach" section of the spec, implement the
-ExportButton component described in specs/EXAMPLE-2026-03-csv-export.md.
+ExportButton component described in [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md).
 ```
 
 **Why this works**: AI focuses on the relevant section, reducing hallucination and off-spec implementations.
@@ -54,7 +54,7 @@ ExportButton component described in specs/EXAMPLE-2026-03-csv-export.md.
 
 ```
 Review my implementation of the export feature against the "Acceptance Criteria"
-section in specs/EXAMPLE-2026-03-csv-export.md. Are there any criteria I haven't met?
+section in [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md). Are there any criteria I haven't met?
 ```
 
 **Why this works**: AI acts as a checklist, ensuring nothing is missed.
@@ -65,7 +65,7 @@ section in specs/EXAMPLE-2026-03-csv-export.md. Are there any criteria I haven't
 
 ```
 Generate unit tests for ExportButton.tsx based on the "Testing Strategy" section
-in specs/EXAMPLE-2026-03-csv-export.md.
+in [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md).
 ```
 
 **Why this works**: AI generates tests that match the spec's testing approach, not generic tests.
@@ -97,7 +97,7 @@ in specs/EXAMPLE-2026-03-csv-export.md.
 
 ```
 Step 1: Load context
-"I'm implementing the feature in specs/EXAMPLE-2026-03-csv-export.md. Read the spec."
+"I'm implementing the feature in [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md). Read the spec."
 
 Step 2: Plan implementation
 "Based on the spec, what order should I implement the components in?"
@@ -116,7 +116,7 @@ Step 5: Validate
 
 ```
 Step 1: Load spec and code
-"Here's the spec (specs/EXAMPLE-2026-03-csv-export.md) and my implementation (src/components/ExportButton.tsx)."
+"Here's the spec ([specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md)) and my implementation (src/components/ExportButton.tsx)."
 
 Step 2: Ask for comparison
 "Does my implementation match the spec? Highlight any deviations."
@@ -131,7 +131,7 @@ Step 4: Fix deviations
 ### Workflow 3: Generate Documentation from Spec
 
 ```
-"Based on specs/EXAMPLE-2026-03-csv-export.md, generate:
+"Based on [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md), generate:
 1. API documentation for the /api/exports endpoint
 2. README section explaining how to use the export feature
 3. User-facing help text for the export modal"
@@ -152,13 +152,13 @@ Step 4: Fix deviations
 ### Cursor
 
 - Use Cursor's "Add to Context" feature to load the spec file
-- Reference specific sections: "@specs/EXAMPLE-2026-03-csv-export.md#technical-approach"
+- Reference specific sections: "@[specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md)#technical-approach"
 
 ### Claude Code (CLI)
 
 - Use `/read` command to load spec:
   ```
-  /read specs/EXAMPLE-2026-03-csv-export.md
+  /read [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md)
   ```
 - Claude Code can read multiple files, so you can load spec + existing code simultaneously
 
@@ -195,7 +195,7 @@ When a feature is complete:
 3. Commit spec update with implementation PR
 
 ```bash
-git add specs/EXAMPLE-2026-03-csv-export.md
+git add [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md)
 git commit -m "docs: mark export spec as implemented
 
 Feature merged in PR #456. Minor deviation: used Bull queue instead of SQS
@@ -215,7 +215,7 @@ Epic: PROD-123"
 **Solution**:
 ```
 "Please stick to the architecture described in the Technical Approach section
-of specs/EXAMPLE-2026-03-csv-export.md. Don't suggest alternative approaches."
+of [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md). Don't suggest alternative approaches."
 ```
 
 ### AI is missing acceptance criteria
@@ -250,7 +250,7 @@ current implementation not satisfy?"
 
 ### Starting a Feature
 ```
-I'm implementing the CSV export feature. The spec is at specs/EXAMPLE-2026-03-csv-export.md.
+I'm implementing the CSV export feature. The spec is at [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md).
 
 Step 1: Read the spec and summarize the key requirements.
 Step 2: Suggest an implementation order for the components.
@@ -261,7 +261,7 @@ Step 3: Implement ExportButton.tsx according to the spec.
 ```
 Here's my implementation of ExportButton.tsx [paste code].
 
-Compare it to the spec at specs/EXAMPLE-2026-03-csv-export.md.
+Compare it to the spec at [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md).
 - Does it match the User Experience section?
 - Does it satisfy the Acceptance Criteria?
 - What's missing or incorrect?
@@ -270,14 +270,14 @@ Compare it to the spec at specs/EXAMPLE-2026-03-csv-export.md.
 ### Generating Tests
 ```
 Generate unit tests for ExportButton.tsx based on:
-1. The Testing Strategy section in specs/EXAMPLE-2026-03-csv-export.md
+1. The Testing Strategy section in [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md)
 2. The example test shown in that section
 3. Coverage for all Acceptance Criteria related to the button
 ```
 
 ### Updating Documentation
 ```
-The export feature is now implemented. Based on specs/EXAMPLE-2026-03-csv-export.md,
+The export feature is now implemented. Based on [specs/EXAMPLE-2026-03-csv-export.md](../specs/EXAMPLE-2026-03-csv-export.md),
 generate user-facing documentation explaining:
 - What the export feature does
 - How to use it (step-by-step)

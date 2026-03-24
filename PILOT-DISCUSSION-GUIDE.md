@@ -112,16 +112,16 @@ A structured approach where **Epics** (in ProductBoard/Jira) define the business
 
 We've created:
 
-1. **Design Document** (`docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`)
+1. **Design Document** ([`docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`](docs/superpowers/specs/2026-03-24-spec-driven-development-design.md))
    - Complete framework design with Epic/Spec boundary, workflow, and pilot plan
 
-2. **Team README** (`specs/README.md`)
+2. **Team README** ([`specs/README.md`](specs/README.md))
    - Quick-start guide: when to create specs, workflow, tips
 
-3. **Spec Template** (`specs/TEMPLATE.md`)
+3. **Spec Template** ([`specs/TEMPLATE.md`](specs/TEMPLATE.md))
    - Ready-to-use template with all sections and ownership annotations
 
-4. **Implementation Plan** (`docs/superpowers/plans/2026-03-24-sdd-framework-enhancements.md`)
+4. **Implementation Plan** ([`docs/superpowers/plans/2026-03-24-sdd-framework-enhancements.md`](docs/superpowers/plans/2026-03-24-sdd-framework-enhancements.md))
    - Plan to add status guide, example spec, and AI integration guide
 
 5. **Example Spec** (being created)
@@ -248,10 +248,10 @@ We've created:
 
 ## Resources
 
-- **Full Design Doc**: `docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`
-- **Team README**: `specs/README.md`
-- **Spec Template**: `specs/TEMPLATE.md`
-- **Example Spec**: `specs/EXAMPLE-2026-03-csv-export.md` (being created)
+- **Full Design Doc**: [`docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`](docs/superpowers/specs/2026-03-24-spec-driven-development-design.md)
+- **Team README**: [`specs/README.md`](specs/README.md)
+- **Spec Template**: [`specs/TEMPLATE.md`](specs/TEMPLATE.md)
+- **Example Spec**: [`specs/EXAMPLE-2026-03-csv-export.md`](specs/EXAMPLE-2026-03-csv-export.md) (being created)
 
 ---
 
