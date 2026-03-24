@@ -268,3 +268,16 @@ Use this space to capture questions or concerns that come up during discussion:
 ---
 
 **Remember**: This is a pilot. We're testing to see if this process works for us. We can adjust, iterate, or abandon based on what we learn. The goal is better collaboration and clearer implementation plans - if the process doesn't serve that goal, we change it.
+
+---
+
+## Navigation
+
+**Getting Started:**
+[Team README](specs/README.md) · [Spec Template](specs/TEMPLATE.md) · [Example Spec](specs/EXAMPLE-2026-03-csv-export.md)
+
+**Guides:**
+[Status Tracking](specs/.spec-status-guide.md) · [AI Integration](docs/ai-assistant-integration.md) · [Pilot Discussion](PILOT-DISCUSSION-GUIDE.md)
+
+**Framework:**
+[Design Document](docs/superpowers/specs/2026-03-24-spec-driven-development-design.md) · [CLAUDE.md](CLAUDE.md)

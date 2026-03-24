@@ -172,3 +172,16 @@ This is a pilot framework! As you use it, we'll refine based on what works and w
 ---
 
 **Remember**: The goal isn't perfect documentation - it's shared understanding before implementation begins.
+
+---
+
+## Navigation
+
+**Getting Started:**
+[Team README](README.md) · [Spec Template](TEMPLATE.md) · [Example Spec](EXAMPLE-2026-03-csv-export.md)
+
+**Guides:**
+[Status Tracking](.spec-status-guide.md) · [AI Integration](../docs/ai-assistant-integration.md) · [Pilot Discussion](../PILOT-DISCUSSION-GUIDE.md)
+
+**Framework:**
+[Design Document](../docs/superpowers/specs/2026-03-24-spec-driven-development-design.md) · [CLAUDE.md](../CLAUDE.md)

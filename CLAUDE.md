@@ -156,3 +156,16 @@ When moving to a new location:
 This framework is designed to evolve based on team feedback. If the team discovers better practices during the pilot, update this framework to reflect them.
 
 **Design Philosophy**: Better collaboration through clearer boundaries, explicit ownership, and structured documentation.
+
+---
+
+## Navigation
+
+**Team Docs:**
+[Team README](specs/README.md) · [Spec Template](specs/TEMPLATE.md) · [Example Spec](specs/EXAMPLE-2026-03-csv-export.md) · [Status Tracking](specs/.spec-status-guide.md)
+
+**Guides:**
+[AI Integration](docs/ai-assistant-integration.md) · [Pilot Discussion](PILOT-DISCUSSION-GUIDE.md)
+
+**Framework:**
+[Design Document](docs/superpowers/specs/2026-03-24-spec-driven-development-design.md) · [Implementation Plan](docs/superpowers/plans/2026-03-24-sdd-framework-enhancements.md) · [CLAUDE.md](CLAUDE.md)

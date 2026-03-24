@@ -352,3 +352,16 @@ This Spec Driven Development framework provides a structured yet flexible approa
 - Serves both current and future team members
 
 **Next Steps**: Create implementation artifacts and execute pilot with selected feature.
+
+---
+
+## Navigation
+
+**Team Docs:**
+[Team README](../../../specs/README.md) · [Spec Template](../../../specs/TEMPLATE.md) · [Example Spec](../../../specs/EXAMPLE-2026-03-csv-export.md) · [Status Tracking](../../../specs/.spec-status-guide.md)
+
+**Guides:**
+[AI Integration](../../ai-assistant-integration.md) · [Pilot Discussion](../../../PILOT-DISCUSSION-GUIDE.md)
+
+**Framework:**
+[Design Document](2026-03-24-spec-driven-development-design.md) · [Implementation Plan](../plans/2026-03-24-sdd-framework-enhancements.md) · [CLAUDE.md](../../../CLAUDE.md)

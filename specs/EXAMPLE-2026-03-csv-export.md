@@ -512,3 +512,16 @@ describe('ExportButton', () => {
 **Engineering Lead**: Alex Rivera - 2026-03-13 - **Approved**
 
 *Status changed to "Approved" on 2026-03-15. Implementation begins 2026-03-18.*
+
+---
+
+## Navigation
+
+**Getting Started:**
+[Team README](README.md) · [Spec Template](TEMPLATE.md) · [Example Spec](EXAMPLE-2026-03-csv-export.md)
+
+**Guides:**
+[Status Tracking](.spec-status-guide.md) · [AI Integration](../docs/ai-assistant-integration.md) · [Pilot Discussion](../PILOT-DISCUSSION-GUIDE.md)
+
+**Framework:**
+[Design Document](../docs/superpowers/specs/2026-03-24-spec-driven-development-design.md) · [CLAUDE.md](../CLAUDE.md)

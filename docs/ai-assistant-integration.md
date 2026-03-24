@@ -290,3 +290,16 @@ generate user-facing documentation explaining:
 ## Questions?
 
 This guide will evolve as the team gains experience using specs with AI assistants. Share your tips and workflows!
+
+---
+
+## Navigation
+
+**Getting Started:**
+[Team README](../specs/README.md) · [Spec Template](../specs/TEMPLATE.md) · [Example Spec](../specs/EXAMPLE-2026-03-csv-export.md)
+
+**Guides:**
+[Status Tracking](../specs/.spec-status-guide.md) · [AI Integration](ai-assistant-integration.md) · [Pilot Discussion](../PILOT-DISCUSSION-GUIDE.md)
+
+**Framework:**
+[Design Document](superpowers/specs/2026-03-24-spec-driven-development-design.md) · [CLAUDE.md](../CLAUDE.md)
