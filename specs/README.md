@@ -159,6 +159,12 @@ Each section of the Spec has a clear owner:
 - **Full Design Document**: [`docs/superpowers/specs/2026-03-24-spec-driven-development-design.md`](../docs/superpowers/specs/2026-03-24-spec-driven-development-design.md)
 - **Spec Template**: [`specs/TEMPLATE.md`](TEMPLATE.md)
 
+## Additional Resources
+
+- **Spec Status Tracking**: [`.spec-status-guide.md`](.spec-status-guide.md) - How to update and track spec statuses
+- **Example Spec**: [`EXAMPLE-2026-03-csv-export.md`](EXAMPLE-2026-03-csv-export.md) - Reference example for pilot team
+- **AI Assistant Integration**: [`../docs/ai-assistant-integration.md`](../docs/ai-assistant-integration.md) - Using specs with AI coding assistants
+
 ## Questions?
 
 This is a pilot framework! As you use it, we'll refine based on what works and what doesn't. Share feedback with your PM, Design, and Engineering partners.
