@@ -12,12 +12,16 @@ We use **both** Epics and Specs - they serve different purposes:
 
 | Aspect | Epic (ProductBoard/Jira) | Spec (This Repo) |
 |--------|--------------------------|------------------|
-| **Purpose** | Business planning & tracking | Implementation blueprint |
-| **Audience** | Stakeholders, leadership, roadmap | PM, Design, Engineering, AI assistants |
-| **Contains** | WHAT & WHY | HOW |
-| **Examples** | User problem, business value, success metrics, high-level scope | Detailed user flows, technical architecture, component breakdown, testing strategy |
 | **Owner** | Product Manager | Collaborative (PM + Design + Eng) |
+| **Purpose** | Business planning, prioritization, tracking | Implementation blueprint, AI-friendly context |
+| **Focus** | WHAT & WHY | HOW |
+| **Audience** | Stakeholders, leadership, roadmap planning | PM, Design, Engineering, AI assistants |
+| **Location** | ProductBoard/Jira | Git repo (version-controlled with code) |
+| **Contains** | User problem, business value, success metrics, high-level scope, team assignments, timeline | Detailed user flows, technical architecture, data models, API contracts, testing strategy |
+| **Detail Level** | High-level ("Users can export data") | Specific ("Export button top-right, CSV/JSON, max 10k rows") |
 | **Updates** | Throughout feature lifecycle | Locked at approval, updated if scope changes |
+| **Visibility** | Business, product, engineering | Engineering, design, technical implementation |
+| **Examples** | "Enable data export to increase retention by 15%" | "POST /api/exports, sync <1000 rows, async >1000 rows, S3 storage, email notification" |
 
 **Think of it this way:**
 - **Epic** = "We need to let users export their data because it increases retention by 15%"
