@@ -1,7 +1,7 @@
 # Spec Driven Development - Design Document
 
 **Date**: 2026-03-24
-**Status**: Approved
+**Status**: Under Review
 **Purpose**: Establish a Spec Driven Development (SDD) framework for cross-functional product teams
 
 ## Executive Summary
