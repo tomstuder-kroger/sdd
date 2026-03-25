@@ -71,7 +71,7 @@ For shared technical foundations supporting multiple business features.
 1. PM creates Epic in ProductBoard/Jira
    ↓
 2. PM creates Spec file using TEMPLATE.md
-   PM fills: Context & Background, initial Acceptance Criteria
+   PM fills: Context and Background, initial Acceptance Criteria
    (Sources information from Epic - link and summarize, don't duplicate)
    Status: Draft
    ↓
